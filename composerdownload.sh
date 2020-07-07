@@ -7,6 +7,7 @@ cd /home/composer/
 /usr/bin/git clone https://github.com/gonjumixproject/Composer-Implementation-MakeMeFamous
 cd Composer-Implementation-MakeMeFamous
 cp * /home/composer/vendor
+cp * /home/composer/
 
 cd /home/composer/vendor
 
@@ -16,3 +17,10 @@ chown www-data:www-data login.sh
 chown www-data:www-data run_auto_follow.sh
 chown www-data:www-data run_auto_pins.sh
 
+cd /home/composer/
+
+chown www-data:www-data auto_pins_values.php
+chown www-data:www-data auto_follower.php
+chown www-data:www-data login.sh
+chown www-data:www-data run_auto_follow.sh
+chown www-data:www-data run_auto_pins.sh
