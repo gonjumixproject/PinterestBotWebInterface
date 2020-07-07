@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#!/bin/sh
-
 ip=$(hostname -I | cut -d ' ' -f 1)
 apt-get install webhook
  
