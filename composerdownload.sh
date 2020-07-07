@@ -1,17 +1,18 @@
 #!/bin/sh
 
-EXPECTED_CHECKSUM="$(wget -q -O - https://composer.github.io/installer.sig)"
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-ACTUAL_CHECKSUM="$(php -r "echo hash_file('sha384', 'composer-setup.php');")"
+apt-get install php7.2 curl php-curl composer 
+mkdir /home/composer/
+cd /home/composer/
+/usr/bin/composer require seregazhuk/pinterest-bot
+/usr/bin/git clone https://github.com/gonjumixproject/Composer-Implementation-MakeMeFamous
+cd Composer-Implementation-MakeMeFamous
+cp * /home/composer/vendor
 
-if [ "$EXPECTED_CHECKSUM" != "$ACTUAL_CHECKSUM" ]
-then
-	    >&2 echo 'ERROR: Invalid installer checksum'
-	        rm composer-setup.php
-		    exit 1
-	    fi
+cd /home/composer/vendor
 
-	    php composer-setup.php --quiet
-	    RESULT=$?
-	    rm composer-setup.php
-	    exit $RESULT
+chown www-data:www-data auto_pins_values.php
+chown www-data:www-data auto_follower.php
+chown www-data:www-data login.sh
+chown www-data:www-data run_auto_follow.sh
+chown www-data:www-data run_auto_pins.sh
+
