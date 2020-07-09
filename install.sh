@@ -9,7 +9,7 @@ apt-get install python3-pip
 apt-get install python3.7
 
 mkdir /home/composer/
-mkdir /home/composer/vendor/images/
+mkdir /home/composer/vendor/images
 cd /home/composer/
 /usr/bin/composer require seregazhuk/pinterest-bot
 /usr/bin/git clone https://github.com/gonjumixproject/Composer-Implementation-MakeMeFamous
