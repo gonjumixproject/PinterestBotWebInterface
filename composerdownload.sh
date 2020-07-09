@@ -1,5 +1,5 @@
 #!/bin/sh
-
+apt-get update
 apt-get install php7.2 php-curl composer 
 mkdir /home/composer/
 cd /home/composer/
