@@ -2,6 +2,7 @@
 apt-get update
 apt-get install php7.2 php-curl composer 
 mkdir /home/composer/
+mkdir /home/composer/vendor/images/
 cd /home/composer/
 /usr/bin/composer require seregazhuk/pinterest-bot
 /usr/bin/git clone https://github.com/gonjumixproject/Composer-Implementation-MakeMeFamous
