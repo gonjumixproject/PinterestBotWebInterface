@@ -1,6 +1,6 @@
 #!/bin/sh
 
-apt-get install php7.2 curl php-curl composer 
+apt-get install php7.2 php-curl composer 
 mkdir /home/composer/
 cd /home/composer/
 /usr/bin/composer require seregazhuk/pinterest-bot
