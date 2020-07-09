@@ -8,4 +8,5 @@ ip=$(hostname -I | cut -d ' ' -f 1)
 sed -i "s/\<THISWILLBETHEIPOFTHESERVER\>/$ip/g" /var/www/html/*
 cd /var/www/html
 chown www-data:www-data *
+chown www-data:www-data /var/www/html
 
