@@ -7,7 +7,7 @@ apt-get install webhook
 
 mkdir /var/webhook 
 
-WebHook-Implementation-MakeMeFamous
+cd WebHook-Implementation-MakeMeFamous/
 
 cp * /var/webhook 
 
