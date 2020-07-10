@@ -1,8 +1,20 @@
 <pre/># MakeMeFamous
 
-This project is a combination of three amazing github project, which I have been using for a very long time. 
+This project is a combination of three amazing github projects. 
+( 
+https://github.com/seregazhuk/php-pinterest-bot#installation 
+https://github.com/adnanh/webhook  
+https://github.com/hardikvasa/google-images-download
+)
 
-Basicly it created a semi-professional web interface for the Php Pinterest bot auto pin sharing and image dowload from the Bing browser. 
+- User install the requirements by using the ./installation.sh script from this project.
+- http://x.x.x.x/ lauch your IP adress. 
+- From "User/Pass Login" Type your Pinterest User-Pass information. 
+- From "Edit Keyword Pinterest Post" Type your Blog html, and keywords for the Pinterest pin Description. 
+- From "Bing Image Download" provide the Bing URL, and how many image you would like to dowload. 
+- From "Dowload the Image" tab, dowload the image.
+- From "Share the Image" tab, click and wait to share the imgaes you dowloaded.
+
 
 Installation script does the following; 
 
