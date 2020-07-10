@@ -12,8 +12,8 @@ https://github.com/hardikvasa/google-images-download
 - From "User/Pass Login" Type your Pinterest User-Pass information. 
 - From "Edit Keyword Pinterest Post" Type your Blog html, and keywords for the Pinterest pin Description. 
 - From "Bing Image Download" provide the Bing URL, and how many image you would like to dowload. 
-- From "Dowload the Image" tab, dowload the image.
-- From "Share the Image" tab, click and wait to share the imgaes you dowloaded.
+- From "Dowload the Image" tab, dowload the images.
+- From "Share the Image" tab, click and wait to share the imgaes in Pinterest you dowloaded from the Bing.
 
 
 Installation script does the following; 
