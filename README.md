@@ -1,5 +1,11 @@
 <pre/># MakeMeFamous
 
+This project is a combination of three amazing github project, which I have been using for a very long time. 
+
+Basicly it created a semi-professional web interface for the Php Pinterest bot auto pin sharing and image dowload from the Bing browser. 
+
+Installation script does the following; 
+
 ***********************************************PART 1 Pinterest bot*************************************************
 https://github.com/seregazhuk/php-pinterest-bot#installation
 
