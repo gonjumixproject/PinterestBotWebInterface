@@ -72,3 +72,13 @@ sed -i "s/\<THISWILLBETHEIPOFTHESERVER\>/$ip/g" /var/www/html/*
 cd /var/www/html
 chown www-data:www-data *
 chown www-data:www-data /var/www/html
+
+
+# WebHook Restart
+
+webhookpid=$(netstat -peanut | grep :9000 | awk -F' ' '{print $9}' | awk -F'/' '{print $1}')
+
+kill -9 $webhookpid
+cd /var/webhook
+#restart weebhook
+/usr/bin/webhook -hooks hooks.json -verbose -ip $ip &
