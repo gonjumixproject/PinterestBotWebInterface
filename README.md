@@ -1,4 +1,4 @@
-<pre/># MakeMeFamous
+<pre/>
 
 This project is a combination of three amazing github projects. 
 ( 
