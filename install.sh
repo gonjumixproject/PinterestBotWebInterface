@@ -37,6 +37,8 @@ chown www-data:www-data run_auto_pins.sh
 #googleimagebinkdowload.sh
 
 cd /home
+mkdir /home/composer/vendor/images
+chown www-data:www-data images
 /usr/bin/git clone https://github.com/hardikvasa/google-images-download.git
 cd google-images-download && sudo python3.7 setup.py install
 cd /home
